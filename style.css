@@ -648,3 +648,7 @@ body {
     text-align: right;                /* 👈 ٹیکسٹ کو دائیں طرف الائن کرنے کے لیے */
 }
 }
+/* لودھی کے اسپیس کو زبردستی ٹھیک کرنے کیلئے */
+h1, .msg-author, .msg-content p {
+    word-spacing: -2px;
+}
