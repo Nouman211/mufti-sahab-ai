@@ -652,3 +652,8 @@ body {
 h1, .msg-author, .msg-content p {
     word-spacing: -2px;
 }
+/* فونٹ کے فالتو فاصلے کو زبردستی ختم کرنے کیلئے */
+.join-word {
+    margin-right: -12px !important;
+    display: inline-block;
+}
