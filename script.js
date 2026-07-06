@@ -94,7 +94,7 @@ function appendMessage(text, sender, id, time) {
   const content = document.createElement("div");
   content.className = "msg-content";
 
-  const author = sender === "bot" ? "مفتی سکندر حیات بابا صاحب" : "معزز سائل";
+  const author = sender === "bot" ? "مفتی حافظ صفوان لودھی صاحب" : "معزز سائل";
   const header = makeMsgHeader(author, msgTime);
   content.appendChild(header);
 
@@ -285,7 +285,7 @@ function confirmClear() {
   suggestions.style.display = "flex";
 
   appendMessage(
-    "بسم اللہ الرحمن الرحیم\nالسلام علیکم ورحمۃ اللہ و برکاتہ\nمیں مفتی سکندر حیات بابا صاحب ہوں۔ قرآن و سنت کی روشنی میں آپ کا رہنما۔\nبراہ کرم معزز سائل اپنا اسلامی سوال پوچھیں، میں چاروں دلائل (قرآن، حدیث، صحابہ کا طرز عمل، اور علما کی رائے) کے ساتھ جواب دوں گا، ان شاء اللہ۔",
+    "بسم اللہ الرحمن الرحیم\nالسلام علیکم ورحمۃ اللہ و برکاتہ\nمیں مفتی حافظ صفوان لودھی صاحب۔ قرآن و سنت کی روشنی میں آپ کا رہنما۔\nبراہ کرم معزز سائل اپنا اسلامی سوال پوچھیں، میں چاروں دلائل (قرآن، حدیث، صحابہ کا طرز عمل، اور علما کی رائے) کے ساتھ جواب دوں گا، ان شاء اللہ۔",
     "bot",
     "welcome"
   );
